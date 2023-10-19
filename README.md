@@ -1,4 +1,5 @@
 # LesionGAN
+## Paper: LesionGAN-4.pdf
 ## Project Description:
 
 Computed Tomography (CT) scans are the preferred imaging modality for lesion detection. On average, the daily human error rate of lesion detection by radiologists from CT scans is 4%, and with there being approximately 1 billion scans annually, this means 40 million patients are misdiagnosed annually. To reduce this high error rate of missed lesions, many have turned to deep learning algorithms to assist in automating lesion detection. However, obtaining large-scale annotated datasets in the medical domain is challenging. While traditional data augmentation is a commonly adopted remedy, it often falls short of introducing sufficient variability into the dataset. This research explores the use of a specialized
@@ -21,7 +22,7 @@ in structure to the original processed images but can be differentiated by the c
 The data augmentation generator does not limit itself on the size of the dataset created. It is fully capable of crashing both online IDEs and offline IDEs. Google Colaboratory in particular has been notorious for crashing under the processing of the generator. However, when we used Pycharm, the issue subsided, although it took several hours to create the dataset.
 
 ### Generative Adversarial Network Training
-The actual training of the Generative Adversarial Network is relatively simple. Simply download the file titled LesionGAN-4.py, connect the dataset of lesion images to the file and run.
+The actual training of the Generative Adversarial Network is relatively simple. Simply download the file titled ures_ntcppy_of_gan.py, connect the dataset of lesion images to the file and run.
 
 ###### WARNING:
 It is important to note that GAN training can be computationally intensive and time-consuming. The duration of the training process may vary depending on factors like dataset size, model architecture, and available computational resources. We recommend that users be prepared for potentially extended training times and ensure they have access to a sufficiently powerful computing environment. If mode collapse(Images begin to rapidly drop in quality mid-training so that it is just a black screen) occurs, it is best to end the runtime and restart, as the GAN has previously struggled in recovering its previous gains.
