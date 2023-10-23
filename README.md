@@ -1,5 +1,5 @@
 # LesionGAN
-## Paper: LesionGAN-4.pdf
+## Paper: ResearchPaper.pdf
 ## Project Description:
 
 Computed Tomography (CT) scans are the preferred imaging modality for lesion detection. On average, the daily human error rate of lesion detection by radiologists from CT scans is 4%, and with there being approximately 1 billion scans annually, this means 40 million patients are misdiagnosed annually. To reduce this high error rate of missed lesions, many have turned to deep learning algorithms to assist in automating lesion detection. However, obtaining large-scale annotated datasets in the medical domain is challenging. While traditional data augmentation is a commonly adopted remedy, it often falls short of introducing sufficient variability into the dataset. This research explores the use of a specialized
